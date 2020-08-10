@@ -44,3 +44,5 @@ elif args == 2:
   calendar.prmonth(year, int(sys.argv[1]))
 elif args == 3:
   calendar.prmonth(int(sys.argv[2]), int(sys.argv[1]))
+else:
+  print("COMMAND MUST BE RAN IN THIS FORMAT `14_cal.py [month] [year]`")
