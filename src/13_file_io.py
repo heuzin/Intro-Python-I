@@ -26,3 +26,6 @@ text_file.write("one\n")
 text_file.write("two\n")
 text_file.write("three\n")
 text_file.close()
+
+with open('bar.txt', 'r') as y:
+    print(y.read())
